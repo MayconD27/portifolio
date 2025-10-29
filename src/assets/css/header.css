@@ -1,0 +1,6 @@
+.header{
+    color: var(--color-font-main);
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+}

@@ -1,8 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
-    padding: 0;
+    font-family: "Exo", sans-serif;
+    font-weight: 400;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 :root{
-    
+    --background-color: #35323B;
+    --color-font-main: #FDFDFD;
+    --destaque-color: #B36BF4;
+    --sub-color-font: #646464;
+}
+body{
+    background-color: var(--background-color);
 }

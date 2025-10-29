@@ -1,0 +1,28 @@
+main{
+    display: flex;
+    background: url("/src/assets/img/main.png");
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 60px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+}
+main .text{
+    color: var(--color-font-main);
+}
+main img{
+    height: 400px;
+}
+.text h1{
+    font-size: 3.5rem;
+}
+.text p{
+    letter-spacing: 25px;
+    font-weight: 200;
+}
