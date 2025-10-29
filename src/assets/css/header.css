@@ -2,5 +2,26 @@
     color: var(--color-font-main);
     background-color: transparent;
     position: fixed;
+    width: 100vw;
     top: 0;
+    margin: 0;
+}
+nav .btn{
+    color: #fff;
+    overflow: none;
+    outline: none; 
+    border: none;
+}
+nav .btn:hover{
+    color: #ddd;
+}
+.bg-dark{
+    background-color: var(--background-color) !important;
+}
+.btn:focus {
+  outline: none; 
+  border: none;
+}
+.navigation{
+    position: relative;
 }
